@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+
+}
+
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+    background-color: #9DC7D3;
+}
+
+
+
+header .logo img {
+    height: 120px;
+    width: 120px;
+   
+}
+
+header .logo h2 {
+    margin-left: 35%;
+    height: 100px;
+    width: 100%;
+    margin-top: -55px;
+    color: white;
+    font-size: 2em;
+
+
+}
+
+
+
+.menu ul {
+
+    display: inline-flex;
+    list-style: none;
+    justify-content: center;
+
+
+}
+
+.menu ul li {
+    width: 350px;
+    position: relative;
+
+
+}
+
+.menu ul li a {
+    display: block;
+    font-size: 22px;
+    color: white;
+    line-height: 80px;
+    padding: 0px 35px;
+    transition: all linear 0.3s;
+
+
+
+}
+
+.menu ul li a:hover {
+    background-color: #57b9c6;
+    color: white;
+}
+
+
+
+.submenu1 {
+    display: none;
+}
+
+.one:hover .submenu1 {
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 80;
+
+}
+
+.one:hover .submenu1 ul {
+    display: block;
+
+
+}
+
+
+.one:hover .submenu1 ul li a {
+    background-color: #9DC7D3;
+    width: 350px;
+    height: 50px;
+    line-height: 50px;
+    border-top: 1px solid #57b9c6;
+
+}
+
+
+.one:hover .submenu1 ul a:hover {
+    background-color: #57b9c6;
+    color: white;
+
+}
+
+
+
+header .button {
+
+    font-size: 1em;
+    background: white;
+    display: inline-block;
+    padding: 25px 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    box-shadow: 2px 2px 2px; 
+}
+
+.btn {
+    color: black;
+}
+
+.btn:hover {
+    color: #9DC7D3;
+}
+
+
+i {
+    font-size: 16px;
+    padding: 5px;
+
+}
